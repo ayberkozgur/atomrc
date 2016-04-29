@@ -1,0 +1,64 @@
+"*":
+  aligner:
+    alignComments: true
+  "atom-alignment":
+    alignBy: [
+      "="
+      "//"
+    ]
+    alignmentSpaceChars: [
+      "="
+      "//"
+    ]
+  "atom-beautify":
+    c:
+      configPath: "/home/equilibrium/.atom/uncrustify.cfg"
+    cpp:
+      configPath: "/home/equilibrium/.atom/uncrustify.cfg"
+    general:
+      _analyticsUserId: "e27db304-b65d-4ffa-acec-277fea97f0bd"
+  "autocomplete-clang": {}
+  "autocomplete-plus":
+    enableAutoActivation: false
+    minimumWordLength: 1
+  core:
+    projectHome: "/home/equilibrium/src"
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  cparts: {}
+  docblockr:
+    align_tags: "no"
+    deep_indent: true
+  editor:
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 120
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "2315f0cd-8fbc-6d07-ea8d-7494d01f0764"
+  "fold-comments":
+    autofold: true
+  "fold-functions":
+    autofold: true
+  linter: {}
+  "linter-clang":
+    verboseDebug: true
+  minimap:
+    adjustAbsoluteModeHeight: true
+    displayPluginsControls: false
+    minimapScrollIndicator: false
+  "project-manager":
+    prettifyTitle: false
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".cpp.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4

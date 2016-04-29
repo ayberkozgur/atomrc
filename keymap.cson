@@ -1,0 +1,22 @@
+'body':
+    'ctrl-tab': 'unset!'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+    'f3': 'unset!'
+'atom-workspace':
+    'f2': 'tree-view:toggle'
+    'f3': 'minimap:toggle'
+    'f8': 'autocomplete-clang:go-declaration'
+    'f6': 'fold-comments:toggle'
+    'f7': 'fold-functions:fold'
+    'ctrl-tab': 'cparts:toggle'
+'.tree-view':
+    'f2': 'unset!'
+    'ctrl-shift-C': 'unset!'
+'atom-text-editor:not([mini])':
+    'ctrl-shift-C': 'block-comment-plus:toggle'
+'atom-text-editor':
+    'f2': 'unset!'
+    'f3': 'unset!'
+    'f4': 'atom-beautify:beautify-editor'
+    'ctrl-shift-C': 'block-comment-plus:toggle'
+    'ctrl-shift-A': 'atom-alignment:alignMultiple'
