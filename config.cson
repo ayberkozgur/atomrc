@@ -43,22 +43,60 @@
     autofold: true
   "fold-functions":
     autofold: true
-  linter: {}
+  linter:
+    errorPanelHeight: 142
+    showErrorPanel: false
   "linter-clang":
     verboseDebug: true
   minimap:
     adjustAbsoluteModeHeight: true
     displayPluginsControls: false
     minimapScrollIndicator: false
+  "minimap-git-diff": {}
   "project-manager":
     prettifyTitle: false
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.tex.latex"
+    ]
+  "split-diff":
+    syncHorizontalScroll: true
   welcome:
     showOnStartup: false
+".beamer.latex.tex.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".bibtex.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
 ".c.source":
   editor:
     preferredLineLength: 120
     tabLength: 4
 ".cpp.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".latex.log.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".latex.memoir.tex.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".latex.tex.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".tex.text":
   editor:
     preferredLineLength: 120
     tabLength: 4
